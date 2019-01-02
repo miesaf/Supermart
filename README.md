@@ -1,2 +1,2 @@
-# 88-Speedmart
+# Supermart
 XML project for educational coursework
