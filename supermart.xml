@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE supermarket SYSTEM "supermart.dtd">
+<supermarket>
+	<branch id="01">
+		<branch_name>AEON BIG</branch_name>
+		<address>JLN LAGENDA 1, TAMAN LAGENDA</address>
+		<store>
+			<stocks>
+				<stock id="0001" type="Beverages">
+					<item type="Asian_Health_Drink" halal="Yes">
+						<item_name>F&amp;N SEASONS NUTRISOY SOYA BEAN 1 CARTON</item_name>
+						<price>Rm31.20</price>
+						<exp_date>13/12/19</exp_date>
+						<manufacture>13/12/18</manufacture>
+					</item>
+					<item type="Coffe" halal="Yes">
+						<item_name>Old Town White Coffe 3in1(Classic)</item_name>
+						<price>RM17.99</price>
+						<exp_date>19/6/18</exp_date>
+						<manufacture>19/6/17</manufacture>
+					</item>
+					<item type="Flavouring_Syrups" halal="Yes">
+						<item_name>TESCO EVERYDAY VALUE CORDIAL MANGO 5L</item_name>
+						<price>RM17.99</price>
+						<exp_date>30/10/18</exp_date>
+						<manufacture>30/10/17</manufacture>
+					</item>
+					<item type="Hot_Chocolate_Drinks" halal="Yes">
+						<item_name>Milo Kaw 500g</item_name>
+						<price>RM6</price>
+						<exp_date>25/6/18</exp_date>
+						<manufacture>25/6/17</manufacture>
+					</item>
+					<item type="Juices" halal="Yes">
+						<item_name>Lakewood Organic Pure Lemon 12.5oz</item_name>
+						<price>RM22.20</price>
+						<exp_date>4/8/18</exp_date>
+						<manufacture>4/8/17</manufacture>
+					</item>
+				</stock>
+				<stock id="0002" type="Cereal_and_Snacks">
+					<item type="Biscuit" halal="Yes">
+						<item_name>BISKUT VIRAL 2018</item_name>
+						<price>RM39.90</price>
+						<exp_date>13/3/18</exp_date>
+						<manufacture>13/3/17</manufacture>
+					</item>
+					<item type="Breakfast_Bar" halal="Yes">
+						<item_name>Nestle Koko Krunch Whole Grain Wheat Cereal Bar 25gx6</item_name>
+						<price>RM22.50</price>
+						<exp_date>19/9/18</exp_date>
+						<manufacture>19/9/17</manufacture>
+					</item>
+					<item type="Candy" halal="Yes">
+						<item_name>MILO CUBES(100pcs)</item_name>
+						<price>RM25</price>
+						<exp_date>12/3/2019</exp_date>
+						<manufacture>13/3/18</manufacture>
+					</item>
+					<item type="Cookies" halal="Yes">
+						<item_name>Brownies tarts</item_name>
+						<price>RM20</price>
+						<exp_date>1/2/2019</exp_date>
+						<manufacture>1/2/18</manufacture>
+					</item>
+					<item type="Nuts" halal="Yes">
+						<item_name>Fresh Roasted Pistachios USA(1kg)</item_name>
+						<price>RM79</price>
+						<exp_date>18/2/2019</exp_date>
+						<manufacture>18/2/18</manufacture>
+					</item>
+				</stock>
+				<stock id="0003" type="Frozen_and_Fresh">
+					<item type="Meat" halal="Yes">
+						<item_name>Whole Chicken</item_name>
+						<price>RM12</price>
+						<exp_date>10/5/18</exp_date>
+						<manufacture>20/4/18</manufacture>
+					</item>
+					<item type="Beef" halal="Yes">
+						<item_name>Fresh Beef 1kg</item_name>
+						<price>RM20</price>
+						<exp_date>9/10/18</exp_date>
+						<manufacture>19/10/18</manufacture>
+					</item>
+					<item type="Fish" halal="Yes">
+						<item_name>Cencaru 1kg</item_name>
+						<price>RM5</price>
+						<exp_date>23/4/2018</exp_date>
+						<manufacture>21/4/18</manufacture>
+					</item>
+					<item type="Beef" halal="No">
+						<item_name>Pork ribs 1kg</item_name>
+						<price>RM15</price>
+						<exp_date>7/3/2018</exp_date>
+						<manufacture>4/3/18</manufacture>
+					</item>
+					<item type="Ice_Cream" halal="Yes">
+						<item_name>Wall Ice Cream</item_name>
+						<price>RM8</price>
+						<exp_date>18/3/2018</exp_date>
+						<manufacture>18/6/18</manufacture>
+					</item>
+				</stock>
+				<stock id="0004" type="Tools_and_DIY">
+					<item type="Electrical">
+						<item_name>4-Port USB Wall Socket Charger AC Power</item_name>
+						<price>RM32.50</price>
+						<exp_date />
+						<manufacture>19/7/17</manufacture>
+					</item>
+					<item type="Hardware">
+						<item_name>10pcs 6mm Motorcycle Spire Speed Clip Screw Spring Nuts(Black)</item_name>
+						<price>RM22.50</price>
+						<exp_date />
+						<manufacture>29/6/17</manufacture>
+					</item>
+					<item type="Lawn_and_Garden">
+						<item_name>Stackable Three Pedal Pot Basket COntainer</item_name>
+						<price>RM20</price>
+						<exp_date />
+						<manufacture>15/5/18</manufacture>
+					</item>
+					<item type="Painting_and_Decorating">
+						<item_name>Genuine LKB Tile reform grouting fix waterproof anti-fungus</item_name>
+						<price>RM19.90</price>
+						<exp_date />
+						<manufacture>1/4/2017</manufacture>
+					</item>
+					<item type="Plumbing">
+						<item_name>Upvc Bend 40mm X 45 Degree X 5 Pcs</item_name>
+						<price>RM14</price>
+						<exp_date />
+						<manufacture>31/8/2016</manufacture>
+					</item>
+				</stock>
+			</stocks>
+			<customers>
+				<customer id="100" gender="Male">
+					<cust_name>
+						<fname>Muhd</fname>
+						<lname>Hisham</lname>
+					</cust_name>
+					<ic>960313-04-6718</ic>
+					<cust_address>
+						<street>JLN PANDAN JAYA</street>
+						<poscode>75250</poscode>
+						<city>MELAKA</city>
+					</cust_address>
+					<email>sham12@yahoo.com</email>
+				</customer>
+				<customer id="200" gender="Female">
+					<cust_name>
+						<fname>Nur</fname>
+						<lname>Syahira</lname>
+					</cust_name>
+					<ic>970101568917</ic>
+					<cust_address>
+						<street>JLN SERI MENDAPAT</street>
+						<poscode>75680</poscode>
+						<city>JOHOR BAHRU</city>
+					</cust_address>
+					<email>ceri34@gmail.com</email>
+				</customer>
+			</customers>
+			<purchases>
+				<purchase id="01">
+					<item_Purchased>
+						<item_name>Wall Ice Cream</item_name>
+						<quantity>2</quantity>
+						<price>RM8</price>
+					</item_Purchased>
+					<total>RM16</total>
+					<date>20/6/18</date>
+					<payment type="Cash" />
+				</purchase>
+				<purchase id="02">
+					<item_Purchased>
+						<item_name>BISKUT VIRAL 2018</item_name>
+						<quantity>3</quantity>
+						<price>RM39.90</price>
+					</item_Purchased>
+					<item_Purchased>
+						<item_name>Old Town White Coffe 3in1(Classic)</item_name>
+						<quantity>1</quantity>
+						<price>RM17.99</price>
+					</item_Purchased>
+					<item_Purchased>
+						<item_name>Whole Chicken</item_name>
+						<quantity>2</quantity>
+						<price>RM12</price>
+					</item_Purchased>
+					<item_Purchased>
+						<item_name>Upvc Bend 40mm X 45 Degree X 5 Pcs</item_name>
+						<quantity>1</quantity>
+						<price>RM14</price>
+					</item_Purchased>
+					<item_Purchased>
+						<item_name>Fresh Roasted Pistachios USA(1kg)</item_name>
+						<quantity>1</quantity>
+						<price>RM79</price>
+					</item_Purchased>
+					<total>RM254.69</total>
+					<date>19/5/2018</date>
+					<payment type="Credit_Card" />
+				</purchase>
+			</purchases>
+		</store>
+		<employees>
+			<employee id="01" gender="Male" section="Tools_and_DIY">
+				<emp_name>
+					<fname>Muhd</fname>
+					<lname>Asyraf</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN LKP</street>
+					<poscode>76590</poscode>
+					<city>Kuala Lumpur</city>
+				</emp_address>
+				<phone_num>017-6665193</phone_num>
+				<email>acap_os@yahoo.com</email>
+			</employee>
+			<employee id="02" gender="Male" section="Frozen_and_Fresh" svID="700">
+				<emp_name>
+					<fname>Saifullah</fname>
+					<lname>Azbi</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN KAMPUNG BARU</street>
+					<poscode>75220</poscode>
+					<city>Kuala Lumpur</city>
+				</emp_address>
+				<phone_num>019-7687231</phone_num>
+				<email>sa123@gmail.com</email>
+			</employee>
+			<employee id="03" gender="Female" section="Cashier">
+				<emp_name>
+					<fname>Sabrina</fname>
+					<lname>Wahab</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN AMAN 2</street>
+					<poscode>75680</poscode>
+					<city>Kuala Terengganu</city>
+				</emp_address>
+				<phone_num>012-2542526</phone_num>
+				<email>sabriwa97@gmail.com</email>
+			</employee>
+			<employee id="04" gender="Male" section="Cereal_and_Snacks">
+				<emp_name>
+					<fname>Amirul</fname>
+					<lname>Ikmal</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN MERLIMAU JAYA</street>
+					<poscode>75290</poscode>
+					<city>Kapar</city>
+				</emp_address>
+				<phone_num>014-7896789</phone_num>
+				<email>miesaf123@gmail.com</email>
+			</employee>
+			<employee id="05" gender="Male" section="Beverages">
+				<emp_name>
+					<fname>Ahmad</fname>
+					<lname>Hazman</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN CHENG UTAMA</street>
+					<poscode>75210</poscode>
+					<city>Kuala Selangor</city>
+				</emp_address>
+				<phone_num>019-9973452</phone_num>
+				<email>hazman97@yahoo.com</email>
+			</employee>
+		</employees>
+	</branch>
+	<branch id="02">
+		<branch_name>AEON STORE</branch_name>
+		<address>JLN MELAKA RAYA</address>
+		<store>
+			<stocks>
+				<stock id="0001" type="Beverages">
+					<item type="Isotonik_Drink" halal="Yes">
+						<item_name>F&amp;N SEASONS STRAWBERRY 1 CARTON</item_name>
+						<price>Rm25.50</price>
+						<exp_date>21/5/19</exp_date>
+						<manufacture>21/5/18</manufacture>
+					</item>
+					<item type="Coffe" halal="Yes">
+						<item_name>Old Town White Coffe 3in1(Classic)</item_name>
+						<price>RM17.99</price>
+						<exp_date>19/6/18</exp_date>
+						<manufacture>19/6/17</manufacture>
+					</item>
+					<item type="Flavouring_Syrups" halal="Yes">
+						<item_name>TESCO EVERYDAY VALUE CORDIAL MANGO 5L</item_name>
+						<price>RM17.99</price>
+						<exp_date>30/10/18</exp_date>
+						<manufacture>30/10/17</manufacture>
+					</item>
+					<item type="Hot_Chocolate_Drinks" halal="Yes">
+						<item_name>Milo Kaw 500g</item_name>
+						<price>RM6</price>
+						<exp_date>25/6/18</exp_date>
+						<manufacture>25/6/17</manufacture>
+					</item>
+					<item type="Juices" halal="Yes">
+						<item_name>Lakewood Organic Pure Lemon 12.5oz</item_name>
+						<price>RM22.20</price>
+						<exp_date>4/8/18</exp_date>
+						<manufacture>4/8/17</manufacture>
+					</item>
+				</stock>
+				<stock id="0002" type="Cereal_and_Snacks">
+					<item type="Biscuit" halal="Yes">
+						<item_name>BISKUT VIRAL 2018</item_name>
+						<price>RM39.90</price>
+						<exp_date>13/3/18</exp_date>
+						<manufacture>13/3/17</manufacture>
+					</item>
+					<item type="Breakfast_Bar" halal="Yes">
+						<item_name>Nestle Honey Star Whole Grain Wheat Cereal Bar 25gx6</item_name>
+						<price>RM20.50</price>
+						<exp_date>19/9/18</exp_date>
+						<manufacture>19/9/17</manufacture>
+					</item>
+					<item type="Candy" halal="Yes">
+						<item_name>MILO CUBES(100pcs)</item_name>
+						<price>RM25</price>
+						<exp_date>12/3/2019</exp_date>
+						<manufacture>13/3/18</manufacture>
+					</item>
+					<item type="Cookies" halal="Yes">
+						<item_name>Brownies tarts</item_name>
+						<price>RM20</price>
+						<exp_date>1/2/2019</exp_date>
+						<manufacture>1/2/18</manufacture>
+					</item>
+					<item type="Nuts" halal="Yes">
+						<item_name>Fresh Roasted Pistachios USA(1kg)</item_name>
+						<price>RM79</price>
+						<exp_date>18/2/2019</exp_date>
+						<manufacture>18/2/18</manufacture>
+					</item>
+				</stock>
+				<stock id="0003" type="Frozen_and_Fresh">
+					<item type="Meat" halal="Yes">
+						<item_name>Whole Chicken</item_name>
+						<price>RM12</price>
+						<exp_date>10/5/18</exp_date>
+						<manufacture>20/4/18</manufacture>
+					</item>
+					<item type="Beef" halal="Yes">
+						<item_name>Fresh Beef 1kg</item_name>
+						<price>RM20</price>
+						<exp_date>9/10/18</exp_date>
+						<manufacture>19/10/18</manufacture>
+					</item>
+					<item type="Fish" halal="Yes">
+						<item_name>Cencaru 1kg</item_name>
+						<price>RM5</price>
+						<exp_date>23/4/2018</exp_date>
+						<manufacture>21/4/18</manufacture>
+					</item>
+					<item type="Beef" halal="No">
+						<item_name>Pork ribs 1kg</item_name>
+						<price>RM15</price>
+						<exp_date>7/3/2018</exp_date>
+						<manufacture>4/3/18</manufacture>
+					</item>
+					<item type="Ice_Cream" halal="Yes">
+						<item_name>Magnum BlackForest Ice Cream</item_name>
+						<price>RM15</price>
+						<exp_date>22/8/2018</exp_date>
+						<manufacture>22/8/18</manufacture>
+					</item>
+				</stock>
+				<stock id="0004" type="Tools_and_DIY">
+					<item type="Electrical">
+						<item_name>4-Port USB Wall Socket Charger AC Power</item_name>
+						<price>RM32.50</price>
+						<exp_date />
+						<manufacture>19/7/17</manufacture>
+					</item>
+					<item type="Hardware">
+						<item_name>10pcs 6mm Car Spire Speed Clip Screw Spring Nuts(Black)</item_name>
+						<price>RM30.50</price>
+						<exp_date />
+						<manufacture>31/6/17</manufacture>
+					</item>
+					<item type="Lawn_and_Garden">
+						<item_name>Stackable Three Pedal Pot Basket COntainer</item_name>
+						<price>RM20</price>
+						<exp_date />
+						<manufacture>15/5/18</manufacture>
+					</item>
+					<item type="Painting and Decorating">
+						<item_name>Genuine LKB Tile reform grouting fix waterproof anti-fungus</item_name>
+						<price>RM19.90</price>
+						<exp_date />
+						<manufacture>1/4/2017</manufacture>
+					</item>
+					<item type="Plumbing">
+						<item_name>Upvc Bend 40mm X 45 Degree X 5 Pcs</item_name>
+						<price>RM14</price>
+						<exp_date />
+						<manufacture>31/8/2016</manufacture>
+					</item>
+				</stock>
+			</stocks>
+			<customers>
+				<customer id="100" gender="Male">
+					<cust_name>
+						<fname>Muhd</fname>
+						<lname>Iman</lname>
+					</cust_name>
+					<ic>961815-04-6745</ic>
+					<cust_address>
+						<street>JLN BATU PAHAT</street>
+						<poscode>75840</poscode>
+						<city>MUAR</city>
+					</cust_address>
+					<email>iman96@gmail.com</email>
+				</customer>
+				<customer id="200" gender="Female">
+					<cust_name>
+						<fname>Nur</fname>
+						<lname>Maisarah</lname>
+					</cust_name>
+					<ic>970101568917</ic>
+					<cust_address>
+						<street>JLN SERI MENDAPAT</street>
+						<poscode>75680</poscode>
+						<city>JOHOR BAHRU</city>
+					</cust_address>
+					<email>sarah97@yahoo.com</email>
+				</customer>
+			</customers>
+			<purchases>
+				<purchase id="03">
+					<item_Purchased>
+						<item_name>4-Port USB Wall Socket Charger AC Power</item_name>
+						<quantity>2</quantity>
+						<price>RM32.50</price>
+					</item_Purchased>
+					<total>RM65</total>
+					<date>20/6/18</date>
+					<payment type="Cash" />
+				</purchase>
+				<purchase id="04">
+					<item_Purchased>
+						<item_name>10pcs 6mm Car Spire Speed Clip Screw Spring Nuts(Black)</item_name>
+						<quantity>1</quantity>
+						<price>RM30.50</price>
+					</item_Purchased>
+					<item_Purchased>
+						<item_name>Magnum BlackForest Ice Cream</item_name>
+						<quantity>1</quantity>
+						<price>RM15</price>
+					</item_Purchased>
+					<item_Purchased>
+						<item_name>Nestle Honey Star Whole Grain Wheat Cereal Bar 25gx6</item_name>
+						<quantity>2</quantity>
+						<price>RM20.50</price>
+					</item_Purchased>
+					<item_Purchased>
+						<item_name>TESCO EVERYDAY VALUE CORDIAL MANGO 5L</item_name>
+						<quantity>1</quantity>
+						<price>RM17.99</price>
+					</item_Purchased>
+					<item_Purchased>
+						<item_name>Fresh Roasted Pistachios USA(1kg)</item_name>
+						<quantity>1</quantity>
+						<price>RM79</price>
+					</item_Purchased>
+					<total>RM183.49</total>
+					<date>20/6/2018</date>
+					<payment type="Credit_Card" />
+				</purchase>
+			</purchases>
+		</store>
+		<employees>
+			<employee id="06" gender="Male" section="Tools_and_DIY">
+				<emp_name>
+					<fname>Muhd</fname>
+					<lname>Faiz</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN SEMABOK</street>
+					<poscode>76980</poscode>
+					<city>Kuala Kedah</city>
+				</emp_address>
+				<phone_num>017-6778523</phone_num>
+				<email>pais97@yahoo.com</email>
+			</employee>
+			<employee id="07" gender="Female" section="Frozen_and_Fresh" svID="800">
+				<emp_name>
+					<fname>Syafikah</fname>
+					<lname>Azbi</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN KAMPUNG BARU</street>
+					<poscode>75220</poscode>
+					<city>Kuala Lumpur</city>
+				</emp_address>
+				<phone_num>019-7675651</phone_num>
+				<email>sa98@gmail.com</email>
+			</employee>
+			<employee id="08" gender="Female" section="Cashier">
+				<emp_name>
+					<fname>Suhana</fname>
+					<lname>Kamal</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN DAMAI 2</street>
+					<poscode>75320</poscode>
+					<city>Kuala PERLIS</city>
+				</emp_address>
+				<phone_num>012-2587126</phone_num>
+				<email>suhana97@gmail.com</email>
+			</employee>
+			<employee id="09" gender="Male" section="Cereal_and_Snacks">
+				<emp_name>
+					<fname>Amirul</fname>
+					<lname>Faiq</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN PADANG TEMU</street>
+					<poscode>75250</poscode>
+					<city>Melaka</city>
+				</emp_address>
+				<phone_num>014-7999123</phone_num>
+				<email>faiq3@gmail.com</email>
+			</employee>
+			<employee id="15" gender="Male" section="Beverages">
+				<emp_name>
+					<fname>Ahmad</fname>
+					<lname>Ammar</lname>
+				</emp_name>
+				<emp_address>
+					<street>JLN TELOK MAS</street>
+					<poscode>75240</poscode>
+					<city>Melaka</city>
+				</emp_address>
+				<phone_num>019-9111562</phone_num>
+				<email>cemau7@yahoo.com</email>
+			</employee>
+		</employees>
+	</branch>
+</supermarket>

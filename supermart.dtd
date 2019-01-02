@@ -1,0 +1,57 @@
+<!ELEMENT supermarket (branch+)>
+<!ELEMENT branch (branch_name, address, store, employees)>
+<!ATTLIST branch id CDATA #REQUIRED>
+<!ELEMENT branch_name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!ELEMENT store (stocks, customers, purchases)>
+<!ELEMENT stocks (stock+)>
+<!ELEMENT stock (item+)>
+<!ATTLIST stock id CDATA #REQUIRED
+                type (Beverages | Cereal_and_Snacks | Frozen_and_Fresh | Tools_and_DIY) #REQUIRED>
+<!ELEMENT item (item_name, price, exp_date, manufacture)>
+<!ATTLIST item type CDATA #REQUIRED
+               halal (Yes | No) #IMPLIED>
+<!ELEMENT item_name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT exp_date (#PCDATA)>
+<!ELEMENT manufacture (#PCDATA)>
+
+<!ELEMENT customers (customer+)>
+<!ELEMENT customer (cust_name, ic, cust_address, email)>
+<!ATTLIST customer id CDATA #REQUIRED
+                   gender (Male | Female) #REQUIRED>
+<!ELEMENT cust_name (fname, lname)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT ic (#PCDATA)>
+<!ELEMENT cust_address (street, poscode, city)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT poscode (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT purchases (purchase+)>
+<!ELEMENT purchase  (item_Purchased+, total, date, payment)>
+<!ATTLIST purchase id CDATA #REQUIRED>
+<!ELEMENT item_Purchased (item_name, quantity, price)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT payment EMPTY>
+<!ATTLIST payment type (Cash | Credit_Card) "Cash">
+
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (emp_name, emp_address, phone_num, email)>
+<!ATTLIST employee gender (Male | Female) #REQUIRED
+                   id CDATA #REQUIRED
+                   section (Beverages | Tools_and_DIY | Frozen_and_Fresh | Cashier | Cereal_and_Snacks) #REQUIRED
+                   svID CDATA #IMPLIED>
+<!ELEMENT emp_name (fname, lname)>
+<!ELEMENT emp_address (street, poscode, city)>
+<!ELEMENT phone_num (#PCDATA)>
+
+
+
+
